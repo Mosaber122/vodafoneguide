@@ -1,0 +1,333 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: black;
+
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+
+header{
+    border: solid 1px;
+    
+    box-shadow: 0px 0px 20px 0px;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    
+}
+header .logo img{
+    width: 50px;
+    height: 25px;
+}
+header .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo p {
+    font-size: large;
+    font-weight:900;
+    cursor: pointer;
+}
+header .guid a {
+    background-color: red;
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    letter-spacing: 5px;
+    color: white;
+    transition: 0.5s;
+}
+header .guid a:hover{
+    transform: translateX(-5px);
+}
+/*.................................*/
+.slide1{
+    height: 300px;
+    margin-top: 5px;
+    background-image: url(image/cs3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+}
+/*................................*/
+.slide2{
+    text-align: center;
+    text-transform: capitalize;
+    width: 100%;
+    overflow: hidden;
+}
+.slide2 p{
+    font-weight: 600;
+}
+/*..........................*/
+
+.board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5px;
+    margin: 20px;
+    flex-wrap: wrap;
+    
+    gap: 10px;
+}
+.board .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    
+    padding: 50px;
+    margin: 10px;
+    
+}
+.board .row i{
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.501);
+}
+
+
+
+
+
+/*..........................*/
+.info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+.info .infodetails{
+    
+    padding: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+
+}
+.info .infodetails h2{
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.303);
+    padding: 5px;
+    border-radius: 10px;
+}
+.info .infodetails h1{
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.303);
+    padding: 5px;
+    border-radius: 10px;
+}
+.info .infodetails p{
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.info .infoimg img{
+    width: 600px;
+    margin: 0px 10px;
+}
+
+
+
+
+
+
+/*..........................*/
+.cards{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.card{
+    
+    box-shadow: 0px 10px 10px 5px rgba(0, 0, 0, 0.901) ;
+    margin-bottom: 20px;
+    gap: 20px;
+    padding: 5px;
+    width: 350px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+
+}
+.card .img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid 2px ;
+    background-image: url(image/customer-service-support.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card .details{
+    text-align: center;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+}
+.card .details a{
+    transition: 0.5s ;
+    display: block;
+    margin-top: 10px;
+    width: 80px;
+    
+}
+.card .details a:hover{
+    transform:translatey(-5px)
+}
+
+.card .rate i{
+    transition: 0.5s ;
+
+}
+.card .rate i:hover{
+    cursor: pointer;
+    color: gold;
+    
+}
+.card .contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.card .contact a{
+    font-size: 30px;
+    margin: 10px 0px;
+    transition: 0.5s;
+}
+.card .contact a:hover{
+    transform: translateY(-10px);
+}
+/******************************/
+.teamcards .card{
+    width: 250px;
+    flex-shrink: 0;
+    transition: 0.5s;
+    margin: 20px;
+}
+.teamcards .card:hover{
+    transform: translateY(-20px);
+}
+
+
+.teamcards .card .img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.teamcards .card .img:hover{
+    transform: scale(1.2);
+}
+
+.teamcards{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.teamcards .contact a{
+    font-size: 20px;
+}
+
+/**************************/
+.slide3 h1{
+    text-align: center;
+    border-bottom: solid ;
+    border-top: solid ;
+    margin: 20px 0px;
+    font-size: 100px;
+}
+/**************************/
+.slide4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 0px;
+}
+.slide4 img{
+    width: 300px;
+
+}
+/***************************/
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.715);
+    border-radius: 50px 50px 0px 0px;
+    gap: 200px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+footer .logofooter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+footer .logofooter img{
+    width: 250px;
+}
+
+footer .guidefooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+footer .guidefooter a{
+    color: rgba(255, 255, 255, 0.386);
+    
+    margin: 5px 10px;
+    transition: 0.5s;
+}
+footer .guidefooter a:hover{
+    text-decoration: underline;
+    color: white;
+    transform: translateX(-5px);
+}
+/********************/
+.item {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px ;
+    
+}
+
+

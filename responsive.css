@@ -1,0 +1,75 @@
+@media (max-width: 800px) {
+    /*****************/
+    .line1 h1{
+        font-size: 25px;
+        
+    }
+    
+    .container img{
+    width: 300px;
+    height: 300px;
+
+    }
+/*******************************/
+
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .info .infodetails{
+        
+    }
+.info .infodetails h2{
+    font-size: 15px;
+}
+.info .infodetails h1{
+    font-size: 15px;
+}
+.info .infodetails p{
+    font-weight:200;
+    font-size: 10px;
+}
+.info .infoimg img{
+    width: 300px;   
+}
+/*******************************/
+
+
+    body .item img{
+        width: 100%;
+        
+    }
+    footer{
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 20px;
+    }
+    footer .logofooter img{
+        width: 150px;
+    }
+
+}
+@media (max-width: 600px){
+    .board .row {
+        padding: 5px;
+        margin: 5px;
+    }
+    .board .row i {
+        font-size: 20px;
+    }
+    .board .row p{
+        font-size: 10px;
+    }
+}
+@media (min-width: 800px) {
+
+    .slide2 h1{
+        font-size: 100px;
+    }
+    .slide2 p{
+        font-size: 40px;
+    }
+
+}
